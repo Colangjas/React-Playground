@@ -14,3 +14,49 @@ a {
 * {
   box-sizing: border-box;
 }
+
+#ttt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#ttt ol, #ttt ul {
+  padding-left: 30px;
+}
+#ttt .board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+#ttt .status {
+  margin-bottom: 10px;
+}
+#ttt .square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+#ttt .square:focus {
+  outline: none;
+}
+#ttt .kbd-navigation .square:focus {
+  background: #ddd;
+}
+#ttt .game {
+  display: flex;
+  flex-direction: row;
+}
+#ttt .game-info {
+  margin-left: 20px;
+}
