@@ -27,6 +27,10 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
+          <a href="/map" target="_blank" className={styles.card}>
+            <h3>Map &rarr;</h3>
+            <p>Displays information in an array</p>
+          </a>
           <a href="/events" target="_blank" className={styles.card}>
             <h3>Events &rarr;</h3>
             <p>Toggle button using events</p>
