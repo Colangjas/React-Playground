@@ -27,24 +27,32 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="/tictactoe" className={styles.card}>
+          <a href="/events" target="_blank" className={styles.card}>
+            <h3>Events &rarr;</h3>
+            <p>Toggle button using events</p>
+          </a>
+          <a href="/clock" target="_blank" className={styles.card}>
+            <h3>Clock &rarr;</h3>
+            <p>Showing Mount and Unmount Methods</p>
+          </a>
+          <a href="/tictactoe" target="_blank" className={styles.card}>
             <h3>Tic Tac Toe &rarr;</h3>
             <p>A React Starter Project</p>
           </a>
         
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a href="https://nextjs.org/docs" target="_blank" className={styles.card}>
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="https://nextjs.org/learn" target="_blank" className={styles.card}>
             <h3>Learn &rarr;</h3>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
+            target="_blank" className={styles.card}
           >
             <h3>Examples &rarr;</h3>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
@@ -52,7 +60,7 @@ export default function Home() {
 
           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
+            target="_blank" className={styles.card}
           >
             <h3>Deploy &rarr;</h3>
             <p>
