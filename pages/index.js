@@ -27,6 +27,18 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
+          <a href="/search" target="_blank" className={styles.card}>
+            <h3>Product Search &rarr;</h3>
+            <p>How to think in React</p>
+          </a>
+          <a href="/containment" target="_blank" className={styles.card}>
+            <h3>Containment &rarr;</h3>
+            <p>Components can display arbitrary children</p>
+          </a>
+          <a href="/temperature" target="_blank" className={styles.card}>
+            <h3>Temperature &rarr;</h3>
+            <p>Demonstrates lifting state</p>
+          </a>
           <a href="/map" target="_blank" className={styles.card}>
             <h3>Map &rarr;</h3>
             <p>Displays information in an array</p>
