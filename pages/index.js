@@ -11,22 +11,20 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://colin-m-thompson.com" target="_blank">Colin's</a> <a href="https://reactjs.org" target="_blank">React</a> Playground
         </h1>
 
 
-        <p className={styles.description}>
-      
-        {
-          1+1
-        }
-        </p>
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
 
         <div className={styles.grid}>
+          <a href="/dropdown" target="_blank" className={styles.card}>
+            <h3>Dropdown &rarr;</h3>
+            <p>Example of an accessible dropdown</p>
+          </a>
           <a href="/search" target="_blank" className={styles.card}>
             <h3>Product Search &rarr;</h3>
             <p>How to think in React</p>
