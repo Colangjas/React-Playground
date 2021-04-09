@@ -53,6 +53,10 @@ export default function Home() {
             <h3>Tic Tac Toe &rarr;</h3>
             <p>A React Starter Project</p>
           </a>
+          <a href="/test" target="_blank" className={styles.card}>
+            <h3>Test Arena &rarr;</h3>
+            <p>An area to test code</p>
+          </a>
         
           <a href="https://nextjs.org/docs" target="_blank" className={styles.card}>
             <h3>Documentation &rarr;</h3>
