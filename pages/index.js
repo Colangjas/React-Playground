@@ -21,6 +21,15 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
+          <a href="/hookexample" target="_blank" className={styles.card}>
+            <h3>Hook Example &rarr;</h3>
+            <p>An example of a hook
+            </p>
+          </a>
+          <a href="/testrenderer" target="_blank" className={styles.card}>
+            <h3>Test Renderer &rarr;</h3>
+            <p>Output data to a test</p>
+          </a>
           <a href="/dropdown" target="_blank" className={styles.card}>
             <h3>Dropdown &rarr;</h3>
             <p>Example of an accessible dropdown</p>

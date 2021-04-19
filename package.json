@@ -5,15 +5,18 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "flow": "flow"
   },
   "dependencies": {
     "next": "10.0.8",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-test-renderer": "17.0.1"
   },
   "devDependencies": {
     "envify": "^4.1.0",
+    "flow-bin": "^0.148.0",
     "terser": "^5.6.1",
     "uglifyify": "^5.0.2"
   }
